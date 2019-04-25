@@ -571,13 +571,7 @@
         <p class="description">Meat marinated in vinegar and cooked with potato in goan spicy curry.</p>
     </div>
 
-        <div class="single_dish specials">
-          <div class="title">
-            <span class="name">Madras spice fish curry</span>
-            <span>13.99</span>
-          </div>
-            <p class="description">South Indian home style fish curry with finger licking taste.</p>
-        </div>
+
         <div class="single_dish">
           <div class="title">
             <span class="name">Lamb saag / chicken saag </span>
