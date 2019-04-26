@@ -1,0 +1,117 @@
+
+.header_container{
+  display: flex;
+  flex-flow: column nowrap;
+position: fixed;
+background-color: white;
+top:0;
+width:100%;
+z-index: 1;
+border-bottom: 1px solid #a85a280f;
+height: 200px;
+
+  .logo_area {
+    align-self: center;
+     img{
+        display: block;
+        height: auto;
+        width: 350px;
+     }
+   }
+
+  .main_menu{
+     align-self: center;
+      ul{
+          list-style: none;
+          display:flex;
+          flex-flow: row wrap;
+          align-content: center;
+justify-content: center;
+          li {
+            padding:.8rem 1rem;
+            a{
+              color:#a85a28;
+              font-size: 1.3rem;
+
+            }
+            a:hover{
+              color:$hover_color;
+              border-bottom: 1px solid $hover_color;
+            }
+
+          }
+      }
+   }
+}
+
+
+
+
+//main container css
+.main_container{
+  padding: 1rem;
+    @media screen and (min-width: $medium_size){
+     width:1000px;
+     margin: auto;
+     }
+}
+.headings{
+  color:#523629;
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: normal;
+  font-family: $primary_font;
+}
+
+
+
+// order online container
+.order_online{
+  background-color:#f1eaea82;
+  padding:.5rem .8rem 1.2rem .8rem;
+  margin-bottom: 1rem;
+  .order_online-type{
+    display: grid;
+  grid-gap: .4rem .4rem;
+  @media screen and (min-width: $small_size){
+
+   grid-template-columns: 1fr 1fr;
+
+  }
+    @media screen and (min-width: $medium_size){
+     width:1000px;
+     margin: auto;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
+    section{
+      background-color: White;
+      // margin:.4rem;
+      text-align: center;
+      border-radius: 3px;
+
+      border: 0px;
+      padding:1rem 0;
+      p{
+        margin:1.2rem 0 0 0;
+        text-transform: uppercase;
+        font-family:$secondary_font;
+        font-weight: bold;
+        font-size:1rem;
+      }
+      a{
+        color:$primary_color;
+        .first{
+          color:#6fbf4a;
+        }
+        .second{
+          color:#ecaa20;
+        }
+        .third{
+          color:#dc1e35;
+        }
+      }
+    }
+
+  }
+}

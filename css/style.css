@@ -56,6 +56,42 @@ ul {
   font-weight: normal;
   font-family: "Satisfy", cursive; }
 
+.order_online {
+  background-color: #f1eaea82;
+  padding: .5rem .8rem 1.2rem .8rem;
+  margin-bottom: 1rem; }
+  .order_online .order_online-type {
+    display: grid;
+    grid-gap: .4rem .4rem; }
+    @media screen and (min-width: 450px) {
+      .order_online .order_online-type {
+        grid-template-columns: 1fr 1fr; } }
+    @media screen and (min-width: 900px) {
+      .order_online .order_online-type {
+        width: 1000px;
+        margin: auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr; } }
+    .order_online .order_online-type section {
+      background-color: White;
+      text-align: center;
+      border-radius: 3px;
+      border: 0px;
+      padding: 1rem 0; }
+      .order_online .order_online-type section p {
+        margin: 1.2rem 0 0 0;
+        text-transform: uppercase;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 1rem; }
+      .order_online .order_online-type section a {
+        color: #523629; }
+        .order_online .order_online-type section a .first {
+          color: #6fbf4a; }
+        .order_online .order_online-type section a .second {
+          color: #ecaa20; }
+        .order_online .order_online-type section a .third {
+          color: #dc1e35; }
+
 * {
   box-sizing: border-box; }
 
@@ -102,6 +138,7 @@ img {
   color: black; }
 
 .food_menu {
+  margin-bottom: 1rem;
   display: grid;
   grid-template-columns: auto; }
   @media screen and (min-width: 450px) {
@@ -140,6 +177,50 @@ img {
   text-align: center;
   margin: 2rem 6rem;
   font-size: 1rem; }
+
+.divider {
+  width: 200px;
+  color: #523629; }
+
+.food-gallery {
+  display: grid;
+  grid-gap: 10px 10px; }
+  @media screen and (min-width: 450px) {
+    .food-gallery {
+      grid-template-columns: 1fr 1fr; } }
+  @media screen and (min-width: 900px) {
+    .food-gallery {
+      grid-template-columns: 1fr 1fr 1fr 1fr; } }
+  .food-gallery .container {
+    position: relative;
+    border-radius: 2px; }
+    .food-gallery .container img {
+      width: 100%;
+      display: block;
+      height: auto; }
+    .food-gallery .container .name {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      background-color: #f2bc7ba1;
+      transition: .5s ease; }
+      .food-gallery .container .name .text {
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        left: 0;
+        right: 0;
+        color: white;
+        font-size: 1.8rem;
+        font-family: "Satisfy", cursive;
+        text-align: center; }
+  .food-gallery .container:hover .name {
+    opacity: 1; }
 
 .footer_container {
   background-color: #523629;

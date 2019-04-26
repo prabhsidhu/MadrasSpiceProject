@@ -907,6 +907,10 @@
 </article>
 </section>
   </div>
+
+
+<hr class="divider"/>
+
    <div class="impotant_info">
      <p>Please inform our staffs if you are allergic to any food products. As we try our best to meet your dietary requirement, we cannot guarantee that certain foods are completely free from traces.</p>
    </div>

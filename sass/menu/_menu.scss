@@ -1,4 +1,5 @@
 .food_menu{
+  margin-bottom: 1rem;
   display:grid;
   @media screen and (min-width: $small_size){
     grid-template-columns:50% 50%;
@@ -50,5 +51,8 @@ grid-template-columns:auto;
   margin: 2rem 6rem;
 
   font-size: 1rem;
-
+}
+.divider{
+  width:200px;
+color:$primary_color;
 }
