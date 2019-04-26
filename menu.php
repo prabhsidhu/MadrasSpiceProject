@@ -90,7 +90,7 @@
 <!-- lunch soup and salad menu starts here -->
     <section class="second">
       <article class="food_items">
-        <h2 class="food_items-title">Lunch Special</h2>
+        <h2 class="food_items-title">Lunch Special (Dine-In Only)</h2>
           <p class="lunch">(Mon to Fri 11am to 3 pm. Sat & Sun 11 am to 4pm)</p>
         <div class="single_dish">
           <div class="title">
