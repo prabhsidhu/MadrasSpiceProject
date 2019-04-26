@@ -22,7 +22,7 @@ top:0;
 width:100%;
 z-index: 1;
 border-bottom: 1px solid #a85a280f;
-height: 180px;
+height: 200px;
 
   .logo_area {
     align-self: center;
@@ -38,9 +38,10 @@ height: 180px;
           list-style: none;
           display:flex;
           flex-flow: row wrap;
-
+          align-content: center;
+justify-content: center;
           li {
-            padding:1rem;
+            padding:.8rem 1rem;
             a{
               color:#a85a28;
               font-size: 1.3rem;

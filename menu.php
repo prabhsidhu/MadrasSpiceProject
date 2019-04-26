@@ -571,7 +571,6 @@
         <p class="description">Meat marinated in vinegar and cooked with potato in goan spicy curry.</p>
     </div>
 
-
         <div class="single_dish">
           <div class="title">
             <span class="name">Lamb saag / chicken saag </span>
