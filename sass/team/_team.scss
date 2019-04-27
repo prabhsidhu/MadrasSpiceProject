@@ -1,0 +1,39 @@
+
+.team_member{
+
+  .Chefs_introduction{
+    margin:1rem 0 1.5rem 0;
+      @media screen and (min-width: $small_size){
+      display: grid;
+      grid-template-columns:38% 58%;
+      grid-gap:2% 4%;
+
+    }
+      img{
+        display: block;
+        width: 100%;
+        border-radius:3rem 5px 3rem 5px;
+      }
+      .text{
+         h2,h3{
+           margin: 0;
+           font-family: $third_font;
+           color:$secondary_color;
+           margin-bottom:.6rem;
+         }
+
+      }
+  }
+        @media screen and (min-width: $small_size){
+        .Chefs_introduction:nth-of-type(even){
+          display: grid;
+          grid-template-columns:58% 38%;
+          grid-gap:2% 4%;
+          img{
+            order:1;
+          }
+
+        }
+      }
+
+}

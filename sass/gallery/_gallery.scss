@@ -44,7 +44,7 @@
         }
       }
     }
-    .container:hover .name{
+    .container:hover .name ,.container:focus .name {
       opacity:1;
     }
 

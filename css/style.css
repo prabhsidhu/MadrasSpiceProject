@@ -70,7 +70,7 @@ ul {
       .order_online .order_online-type {
         width: 1000px;
         margin: auto;
-        grid-template-columns: 1fr 1fr 1fr 1fr; } }
+        grid-template-columns: 1fr 1fr 1fr; } }
     .order_online .order_online-type section {
       background-color: White;
       text-align: center;
@@ -91,6 +91,36 @@ ul {
           color: #ecaa20; }
         .order_online .order_online-type section a .third {
           color: #dc1e35; }
+
+.timing table {
+  margin: auto;
+  border-collapse: collapse; }
+  .timing table td, .timing table th {
+    border: 1px solid #523629; }
+
+.address img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: .4rem; }
+.address .address_detail {
+  font-size: 1.4rem;
+  color: #a85a28; }
+  .address .address_detail p {
+    text-align: center;
+    margin: 0;
+    font-family: "PT Serif", serisf; }
+    .address .address_detail p a {
+      color: #a85a28; }
+@media screen and (min-width: 450px) {
+  .address {
+    display: grid;
+    grid-template-columns: 58% 38%;
+    grid-gap: 2% 4%; }
+    .address h1 {
+      grid-column: 1/3; }
+    .address .address_detail p {
+      text-align: left; } }
 
 * {
   box-sizing: border-box; }
@@ -219,8 +249,32 @@ img {
         font-size: 1.8rem;
         font-family: "Satisfy", cursive;
         text-align: center; }
-  .food-gallery .container:hover .name {
+  .food-gallery .container:hover .name, .food-gallery .container:focus .name {
     opacity: 1; }
+
+.team_member .Chefs_introduction {
+  margin: 1rem 0 1.5rem 0; }
+  @media screen and (min-width: 450px) {
+    .team_member .Chefs_introduction {
+      display: grid;
+      grid-template-columns: 38% 58%;
+      grid-gap: 2% 4%; } }
+  .team_member .Chefs_introduction img {
+    display: block;
+    width: 100%;
+    border-radius: 3rem 5px 3rem 5px; }
+  .team_member .Chefs_introduction .text h2, .team_member .Chefs_introduction .text h3 {
+    margin: 0;
+    font-family: "PT Serif", serisf;
+    color: #a85a28;
+    margin-bottom: .6rem; }
+@media screen and (min-width: 450px) {
+  .team_member .Chefs_introduction:nth-of-type(even) {
+    display: grid;
+    grid-template-columns: 58% 38%;
+    grid-gap: 2% 4%; }
+    .team_member .Chefs_introduction:nth-of-type(even) img {
+      order: 1; } }
 
 .footer_container {
   background-color: #523629;

@@ -37,12 +37,7 @@
             <p>Doordash</p>
           </a>
         </section>
-        <section>
-             <a href="https://www.skipthedishes.com/madras-spice-fraeser">
-                <i class="fas fa-car fa-3x second"></i>
-                <p>Skip the dish</p>
-            </a>
-        </section>
+
         <section>
           <a href="https://www.kabu.ca/" target="_blank">
               <i class="fas fa-car fa-3x third"></i>

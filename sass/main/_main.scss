@@ -81,7 +81,7 @@ justify-content: center;
     @media screen and (min-width: $medium_size){
      width:1000px;
      margin: auto;
-     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-columns: 1fr 1fr 1fr;
 
     }
     section{
@@ -115,3 +115,50 @@ justify-content: center;
 
   }
 }
+
+
+
+// contact page css
+.timing{
+  table{
+    margin:auto;
+    border-collapse: collapse;
+
+   td,th {
+     border:1px solid $primary_color;
+   }
+  }
+}
+  .address{
+    img{
+      width:100%;
+      height:auto;
+      display: block;
+      border-radius: .4rem;
+    }
+    .address_detail{
+      font-size: 1.4rem;
+
+      color:$secondary_color;
+      p{
+        text-align: center;
+        margin: 0;
+        font-family:$third_font;
+        a{
+          color:$secondary_color;
+        }
+      }
+    }
+    @media screen and (min-width: $small_size){
+     display: grid;
+     grid-template-columns: 58% 38%;
+     grid-gap:2% 4%;
+      h1{
+       grid-column: 1/3;
+     }
+     .address_detail{
+       p{text-align: left;}
+
+     }
+    }
+  }

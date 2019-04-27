@@ -17,11 +17,35 @@
         </div>
       </div>
 
-<!-- <div class="team_member">
-  <h1>Amazing Team</h1>
-  <div class="team_members_description">
-  </div>
-</div> -->
+      <div class="team_member">
+        <h1 class="headings">Amazing Team</h1>
+        <div class="Chefs_introduction">
+          <img src="images/bala.jpg" alt="bala picture">
+          <div class="text">
+            <h2>Bala</h2>
+            <h3>Chef/Owner</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore
+              eu fugiat nulla pariatur.</p>
+          </div>
+        </div>
+        <div class="Chefs_introduction">
+          <img src="images/raja.jpg" alt="raja picture">
+          <div class="text">
+            <h2>Raja</h2>
+            <h3>Chef/Owner</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore
+              eu fugiat nulla pariatur.</p>
+          </div>
+        </div>
+      </div>
 
     </div>
 
