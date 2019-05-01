@@ -68,7 +68,7 @@
 <div class="main_container">
         <div class="address">
           <h1 class="headings">Visit Us at:</h1>
-            <img src="images/contact.jpg" alt="table look picture">
+            <img src="images/table.jpg" alt="table look picture">
            <div class="address_detail">
              <p>6260 Fraser St,<br/>
              Vancouver, BC<br/>
