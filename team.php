@@ -1,5 +1,4 @@
-<?php include 'include/header.php'; ?>
-<?php include 'include/slider.php' ?>
+
 
     <div class="main_container">
       <div class="introduction">
@@ -7,7 +6,7 @@
             Our chefs
          </h1>
          <div>
-             <p>Our chefs are flawn down from madras spice who are well
+             <p>Our chefs are flawn down from madras who are well
                 versed in preparing south indian food for decades.
                 They are certified red seal chef's and have a
                vast experience of working in 5 star hotels and restaurants around the world.</p>
@@ -16,7 +15,7 @@
             in a well rounded form. This logo takes its inspiration from this unique shape.</p>
         </div>
       </div>
-
+    </div>
       <div class="team_member">
         <h1 class="headings">Amazing Team</h1>
         <div class="Chefs_introduction">
@@ -46,7 +45,3 @@
           </div>
         </div>
       </div>
-
-    </div>
-
-<?php include 'include/footer.php'; ?>

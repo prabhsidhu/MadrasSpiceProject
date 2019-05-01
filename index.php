@@ -47,5 +47,6 @@
       </div>
     </div>
 
+    <?php include 'food.php'; ?>
 
 <?php include 'include/footer.php'; ?>

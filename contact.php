@@ -1,19 +1,19 @@
 <?php include 'include/header.php'; ?>
 <?php include 'include/slider.php' ?>
 
+  <?php include 'team.php' ?>
+
 <div class="main_container">
-
-
         <div class="timing">
             <h1 class="headings">Open 7 days a Week</h1>
             <table>
               <caption>Timing</caption>
-              <tr>
+              <thead>
                 <th>Days</th>
                 <th>Open</th>
                 <th>Last Order</th>
                 <th>Close</th>
-              </tr>
+              </thead>
               <tr>
                 <td>Monday</td>
                 <td>11:00 am</td>
@@ -58,15 +58,17 @@
               </tr>
             </table>
         </div>
+</div>
 
-        <hr/>
         <div class="catering">
              <h1 class="headings">We do <br/> Catering and Dosa Parties</h1>
         </div>
-        <hr/>
+
+
+<div class="main_container">
         <div class="address">
           <h1 class="headings">Visit Us at:</h1>
-            <img src="images/Tablelook.jpg" alt="table look picture">
+            <img src="images/tableLook.jpg" alt="table look picture">
            <div class="address_detail">
              <p>6260 Fraser St,<br/>
              Vancouver, BC<br/>

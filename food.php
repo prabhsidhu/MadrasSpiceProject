@@ -1,5 +1,4 @@
-<?php include 'include/header.php'; ?>
-<?php include 'include/slider.php' ?>
+
 
 <div class="main_container">
   <div class="food_gallery-container">
@@ -129,5 +128,3 @@
 
   </div>
 </div>
-
-<?php include 'include/footer.php'; ?>
