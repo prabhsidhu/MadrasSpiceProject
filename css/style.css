@@ -94,12 +94,17 @@ ul {
 
 .timing table {
   margin: auto;
-  text-align: left;
-  border-spacing: 2rem; }
+  text-align: left; }
   .timing table caption {
     font-family: "PT Serif", serisf;
     font-size: 1.4rem;
-    color: #a85a28; }
+    color: #a85a28;
+    margin-bottom: 1rem; }
+  .timing table thead {
+    background-color: #f1eaea82;
+    text-align: center; }
+  .timing table th, .timing table td {
+    padding: .2rem 1.8rem .2rem .2rem; }
   .timing table th {
     font-family: "PT Serif", serisf; }
   .timing table td {

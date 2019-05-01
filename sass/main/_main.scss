@@ -123,11 +123,19 @@ height: 200px;
   table{
     margin:auto;
     text-align: left;
-    border-spacing: 2rem;
+
      caption{
         font-family: $third_font;
         font-size: 1.4rem;
         color:$secondary_color;
+        margin-bottom: 1rem;
+     }
+     thead{
+       background-color:#f1eaea82;
+        text-align: center;
+     }
+     th,td{
+      padding: .2rem 1.8rem .2rem .2rem;
      }
    th{
      font-family: $third_font;
