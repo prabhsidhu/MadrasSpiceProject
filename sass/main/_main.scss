@@ -135,7 +135,8 @@ height: 200px;
         text-align: center;
      }
      th,td{
-      padding: .2rem 1.8rem .2rem .2rem;
+       box-sizing: border-box;
+      padding: .2rem;
      }
    th{
      font-family: $third_font;

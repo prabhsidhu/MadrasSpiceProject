@@ -104,7 +104,8 @@ ul {
     background-color: #f1eaea82;
     text-align: center; }
   .timing table th, .timing table td {
-    padding: .2rem 1.8rem .2rem .2rem; }
+    box-sizing: border-box;
+    padding: .2rem; }
   .timing table th {
     font-family: "PT Serif", serisf; }
   .timing table td {
