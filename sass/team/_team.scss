@@ -1,12 +1,12 @@
 
 .team_member{
   background-color:#f1eaea82;
-  padding:.5rem .8rem 1.2rem .8rem;
+  padding: 1rem 3rem;
   .Chefs_introduction{
       padding:1rem 0;
       @media screen and (min-width: $small_size){
       display: grid;
-      grid-template-columns:38% 58%;
+      grid-template-columns:40% 52%;
       grid-gap:2% 4%;
 
     }
@@ -32,7 +32,7 @@
         @media screen and (min-width: $small_size){
         .Chefs_introduction:nth-of-type(even){
           display: grid;
-          grid-template-columns:58% 38%;
+          grid-template-columns:52% 40%;
           grid-gap:2% 4%;
           img{
             order:1;

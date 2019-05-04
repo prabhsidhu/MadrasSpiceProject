@@ -1,14 +1,16 @@
-
+.intro{
+  text-align: center;
+}
 .header_container{
-  display: flex;
-  flex-flow: column nowrap;
+display: flex;
+flex-flow: column nowrap;
 position: fixed;
 background-color: white;
 top:0;
 width:100%;
 z-index: 1;
 border-bottom: 1px solid #a85a280f;
-height: 200px;
+height: 160px;
 
   .logo_area {
     align-self: center;
@@ -20,8 +22,11 @@ height: 200px;
    }
 
   .main_menu{
-     align-self: center;
+     background-color: $primary_color;
+     // align-self: center;
       ul{
+        font-family: $secondary_font ;
+        font-weight: normal;
           list-style: none;
           display:flex;
           flex-flow: row wrap;
@@ -30,7 +35,8 @@ height: 200px;
           li {
             padding:.8rem 1rem;
             a{
-              color:#a85a28;
+              color:white;
+              text-transform:uppercase;
               font-size: 1.3rem;
 
             }
@@ -49,7 +55,7 @@ height: 200px;
 
 //main container css
 .main_container{
-  padding: 1rem;
+    padding: 1rem 3rem;
     @media screen and (min-width: $medium_size){
      width:1000px;
      margin: auto;
@@ -69,7 +75,7 @@ height: 200px;
 // order online container
 .order_online{
   background-color:#f1eaea82;
-  padding:.5rem .8rem 1.2rem .8rem;
+padding: 1rem 3rem;
   .order_online-type{
     display: grid;
   grid-gap: .4rem .4rem;
@@ -120,31 +126,14 @@ height: 200px;
 
 // contact page css
 .timing{
-  table{
-    margin:auto;
-    text-align: left;
+  text-align: center;
+  p{
+    
+    font-size: 1.6rem;
+    span{
+      font-weight:bold;
 
-     caption{
-        font-family: $third_font;
-        font-size: 1.4rem;
-        color:$secondary_color;
-        margin-bottom: 1rem;
-     }
-     thead{
-       background-color:#f1eaea82;
-        text-align: center;
-     }
-     th,td{
-       box-sizing: border-box;
-      padding: .2rem;
-     }
-   th{
-     font-family: $third_font;
-   }
-   td{
-     font-family: $secondary_font;
-   }
-
+    }
   }
 }
 .catering{
@@ -154,16 +143,21 @@ height: 200px;
 }
   .address{
     img{
+      margin-bottom: .8rem;
       width:100%;
       height:auto;
       display: block;
       border-radius: .4rem;
     }
     .address_detail{
-      font-size: 1.4rem;
 
+      font-size: 1.4rem;
       color:$secondary_color;
       p{
+        span{
+          font-weight: bold;
+          font-size: 1.8rem;
+        }
         text-align: center;
         margin: 0;
         font-family:$third_font;

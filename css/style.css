@@ -9,6 +9,9 @@ p {
 ul {
   font-family: "Slabo 27px", serif; }
 
+.intro {
+  text-align: center; }
+
 .header_container {
   display: flex;
   flex-flow: column nowrap;
@@ -18,7 +21,7 @@ ul {
   width: 100%;
   z-index: 1;
   border-bottom: 1px solid #a85a280f;
-  height: 200px; }
+  height: 160px; }
   .header_container .logo_area {
     align-self: center; }
     .header_container .logo_area img {
@@ -26,8 +29,10 @@ ul {
       height: auto;
       width: 350px; }
   .header_container .main_menu {
-    align-self: center; }
+    background-color: #523629; }
     .header_container .main_menu ul {
+      font-family: "Roboto", sans-serif;
+      font-weight: normal;
       list-style: none;
       display: flex;
       flex-flow: row wrap;
@@ -36,14 +41,15 @@ ul {
       .header_container .main_menu ul li {
         padding: .8rem 1rem; }
         .header_container .main_menu ul li a {
-          color: #a85a28;
+          color: white;
+          text-transform: uppercase;
           font-size: 1.3rem; }
         .header_container .main_menu ul li a:hover {
           color: #6fbf4a;
           border-bottom: 1px solid #6fbf4a; }
 
 .main_container {
-  padding: 1rem; }
+  padding: 1rem 3rem; }
   @media screen and (min-width: 900px) {
     .main_container {
       width: 1000px;
@@ -59,7 +65,7 @@ ul {
 
 .order_online {
   background-color: #f1eaea82;
-  padding: .5rem .8rem 1.2rem .8rem; }
+  padding: 1rem 3rem; }
   .order_online .order_online-type {
     display: grid;
     grid-gap: .4rem .4rem; }
@@ -92,24 +98,12 @@ ul {
         .order_online .order_online-type section a .third {
           color: #dc1e35; }
 
-.timing table {
-  margin: auto;
-  text-align: left; }
-  .timing table caption {
-    font-family: "PT Serif", serisf;
-    font-size: 1.4rem;
-    color: #a85a28;
-    margin-bottom: 1rem; }
-  .timing table thead {
-    background-color: #f1eaea82;
-    text-align: center; }
-  .timing table th, .timing table td {
-    box-sizing: border-box;
-    padding: .2rem; }
-  .timing table th {
-    font-family: "PT Serif", serisf; }
-  .timing table td {
-    font-family: "Roboto", sans-serif; }
+.timing {
+  text-align: center; }
+  .timing p {
+    font-size: 1.6rem; }
+    .timing p span {
+      font-weight: bold; }
 
 .catering {
   background-color: #f1eaea82;
@@ -117,6 +111,7 @@ ul {
   padding: .4rem; }
 
 .address img {
+  margin-bottom: .8rem;
   width: 100%;
   height: auto;
   display: block;
@@ -128,6 +123,9 @@ ul {
     text-align: center;
     margin: 0;
     font-family: "PT Serif", serisf; }
+    .address .address_detail p span {
+      font-weight: bold;
+      font-size: 1.8rem; }
     .address .address_detail p a {
       color: #a85a28; }
 @media screen and (min-width: 450px) {
@@ -150,7 +148,7 @@ img {
   vertical-align: middle; }
 
 .slider {
-  margin-top: 200px; }
+  margin-top: 160px; }
 
 /* Slideshow container */
 .slideshow-container {
@@ -223,7 +221,6 @@ img {
 
 .impotant_info {
   text-align: center;
-  margin: 2rem 6rem;
   font-size: 1rem; }
 
 .divider {
@@ -266,13 +263,13 @@ img {
 
 .team_member {
   background-color: #f1eaea82;
-  padding: .5rem .8rem 1.2rem .8rem; }
+  padding: 1rem 3rem; }
   .team_member .Chefs_introduction {
     padding: 1rem 0; }
     @media screen and (min-width: 450px) {
       .team_member .Chefs_introduction {
         display: grid;
-        grid-template-columns: 38% 58%;
+        grid-template-columns: 40% 52%;
         grid-gap: 2% 4%; } }
     @media screen and (min-width: 900px) {
       .team_member .Chefs_introduction {
@@ -290,7 +287,7 @@ img {
   @media screen and (min-width: 450px) {
     .team_member .Chefs_introduction:nth-of-type(even) {
       display: grid;
-      grid-template-columns: 58% 38%;
+      grid-template-columns: 52% 40%;
       grid-gap: 2% 4%; }
       .team_member .Chefs_introduction:nth-of-type(even) img {
         order: 1; } }

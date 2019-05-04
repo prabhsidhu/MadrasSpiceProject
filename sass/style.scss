@@ -1,4 +1,10 @@
+// @mixin fontFace($name,$src,$weight) {
+//   font-family: $name;
+//   src:url('#{$src}.otf');
+//   font-weight: $weight;
+// }
 
+// @include fontFace('myFont','../fonts/FaithAndGloryTwo','normal');
 
 body, ul, a{
   margin: 0;

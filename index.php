@@ -6,9 +6,9 @@
           Madras Spice
        </h1>
        <div>
-           <p>Chennai aka madras Spice, the capital of Tamil Nadu and an important part of South India is home to a
+           <p class="intro">Chennai aka madras Spice, the capital of Tamil Nadu and an important part of South India is home to a
              postpourri of vegetarian as well as non-vegetarian cusinies and is famous for its exclusive food culture and traditional range of cusinie, which is known as the South Indian food.</p>
-           <p>Madras spice is a dream venture,
+           <p class="intro">Madras spice is a dream venture,
             with an unique concept, by a group of
             enthusiastic young enterpreneures.
             We have taken care of best to keep the originality if the
