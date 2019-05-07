@@ -3,7 +3,7 @@
 <?php include 'include/slider.php' ?>
 <div class="main_container">
   <div class="food_menu">
-    <h1 class="headings">Menu</h1>
+    <!-- <h1 class="headings">Menu</h1> -->
   <!-- appetizer menu starts here -->
     <section class="first_section">
       <article class="food_items">

@@ -29,7 +29,7 @@ ul {
       height: auto;
       width: 350px; }
   .header_container .main_menu {
-    background-color: #523629; }
+    background-color: #6fbf4a; }
     .header_container .main_menu ul {
       font-family: "Roboto", sans-serif;
       font-weight: normal;
@@ -39,17 +39,17 @@ ul {
       align-content: center;
       justify-content: center; }
       .header_container .main_menu ul li {
-        padding: .8rem 1rem; }
+        padding: .8rem 1.4rem; }
         .header_container .main_menu ul li a {
           color: white;
           text-transform: uppercase;
           font-size: 1rem; }
         .header_container .main_menu ul li a:hover {
-          color: #6fbf4a;
-          border-bottom: 1px solid #6fbf4a; }
+          color: #523629;
+          border-bottom: 1px solid #523629; }
 
 .main_container {
-  padding: 1rem 3rem; }
+  padding: 1rem 2.4rem; }
   @media screen and (min-width: 900px) {
     .main_container {
       width: 1000px;
@@ -65,7 +65,7 @@ ul {
 
 .order_online {
   background-color: #f1eaea82;
-  padding: 1rem 3rem; }
+  padding: 1rem 2.4rem; }
   .order_online .order_online-type {
     display: grid;
     grid-gap: .4rem .4rem; }
@@ -90,7 +90,7 @@ ul {
         font-weight: bold;
         font-size: 1rem; }
       .order_online .order_online-type section a {
-        color: #523629; }
+        color: #6fbf4a; }
         .order_online .order_online-type section a .first {
           color: #6fbf4a; }
         .order_online .order_online-type section a .second {
@@ -225,7 +225,7 @@ img {
 
 .divider {
   width: 200px;
-  color: #523629; }
+  color: #6fbf4a; }
 
 .food-gallery {
   display: grid;
@@ -263,7 +263,7 @@ img {
 
 .team_member {
   background-color: #f1eaea82;
-  padding: 1rem 3rem; }
+  padding: 1rem 2.4rem; }
   .team_member .Chefs_introduction {
     padding: 1rem 0; }
     @media screen and (min-width: 450px) {
@@ -293,7 +293,7 @@ img {
         order: 1; } }
 
 .footer_container {
-  background-color: #523629;
+  background-color: #6fbf4a;
   width: 100%;
   color: white;
   padding: 1rem .7rem;
@@ -321,7 +321,7 @@ img {
         .footer_container .footer_content ul li a {
           color: #fff; }
       .footer_container .footer_content ul a:hover {
-        color: #6fbf4a; }
+        color: #523629; }
   .footer_container .footer_img {
     display: flex;
     justify-content: center; }

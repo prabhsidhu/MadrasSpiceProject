@@ -33,7 +33,7 @@ height: 152px;
           align-content: center;
           justify-content: center;
           li {
-            padding:.8rem 1rem;
+            padding:.8rem 1.4rem;
             a{
               color:white;
               text-transform:uppercase;
@@ -55,7 +55,7 @@ height: 152px;
 
 //main container css
 .main_container{
-    padding: 1rem 3rem;
+    padding: 1rem 2.4rem;
     @media screen and (min-width: $medium_size){
      width:1000px;
      margin: auto;
@@ -75,7 +75,7 @@ height: 152px;
 // order online container
 .order_online{
   background-color:#f1eaea82;
-padding: 1rem 3rem;
+padding: 1rem 2.4rem;
   .order_online-type{
     display: grid;
   grid-gap: .4rem .4rem;
